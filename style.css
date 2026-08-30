@@ -1,0 +1,39 @@
+body{
+    text-align: center;
+}
+
+.btn-container{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    /* border: 2px solid black; */
+}
+
+.btn{
+    height: 200px;
+    width: 200px;
+    border: 5px solid black;
+    border-radius: 20px;
+}
+
+.line-1, .line-2{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.red{
+    background-color: #d95980;
+}
+
+.green{
+    background-color: #63aac6;
+}
+
+.yellow{
+    background-color: #f99b45;
+}
+
+.purple{
+    background-color: #819ff9;
+}
